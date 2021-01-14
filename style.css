@@ -1,0 +1,15 @@
+ body {
+     font-family:Helvetica, Arial, sans-serif;
+     margin-left:10%;
+     margin-right:10%;
+    }
+h1 {font-size:24px}
+p{line-height: 1.4;}
+.bottomtext {
+    font-size: 18px;
+    font-color: gray;
+}
+footer {
+    font-size: 12px;
+    color: grey;
+}
