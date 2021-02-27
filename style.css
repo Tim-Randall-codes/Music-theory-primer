@@ -1,10 +1,18 @@
  body {
-     font-family:Helvetica, Arial, sans-serif;
+     font-family:'freight text', 'Times New Roman', Times, serif, serif;
      margin-left:10%;
      margin-right:10%;
+     margin-top: 0px;
+     background-color: lightyellow;
     }
-h1 {font-size:24px}
-p{line-height: 1.4;}
+h1 {
+    font-size: 24px;
+    color: black;
+}
+p{
+    line-height: 1.4;
+}
+
 .bottomtext {
     font-size: 18px;
     font-color: gray;
@@ -12,4 +20,51 @@ p{line-height: 1.4;}
 footer {
     font-size: 12px;
     color: grey;
+}
+#menubar li {
+    display: inline;
+    color: whitesmoke;
+}
+#menubar {
+    min-width: 200px;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+}
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    color:whitesmoke;
+    text-decoration:none;
+    font: Arial, sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#titletext {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../mtp/Pics/titlebackground.jpeg);
+    background-position: center;
+}
+table {
+    border-collapse: collapse;
+    background-color: lightgray;
+}
+td {
+    border: 1pt solid black;
+    font-weight: bold;
+}
+.tselect {
+    background-color: lightgreen;
+}
+.chordt {
+    padding-left: 5px;
+    padding-right: 5px;
 }
